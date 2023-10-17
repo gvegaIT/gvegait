@@ -5,10 +5,14 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <style>
         img.perfil {
-            height: 200px;
-            width: 200px;
-            float: left;
-            margin-right: 20px;
+            height: 150px;
+            width: 150px;
+            float: left; /* Alinea la imagen a la izquierda */
+            margin-right: 20px; /* Añade un margen a la derecha de la imagen para separarla del texto */
+        }
+
+        .clear {
+            clear: both; /* Limpia los flotantes */
         }
     </style>
 </head>
@@ -32,6 +36,7 @@
             <h2>Acerca de Mí</h2>
             <img class="perfil" src="perfil.jpg" alt="Mi imagen de perfil">
             <p>¡Hola! Soy Giuseppe.</p>
+            <div class="clear"></div>
         </section>
         <section id="contacto">
             <h2>Contacto</h2>

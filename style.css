@@ -43,3 +43,8 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+img.perfil {
+    height: 15%;
+    width: 15%;
+}

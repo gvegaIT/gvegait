@@ -43,3 +43,8 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+section {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
